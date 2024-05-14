@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #24282b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#circ {
+    font-size: 3vmin;
+    font-family: 'cousine', monospace;
+    text-transform: uppercase;
+    animation: spin 14s linear infinite;
+    color: #bebbbc;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
